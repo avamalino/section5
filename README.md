@@ -38,3 +38,8 @@ This project is configured for automatic deployment to GitHub Pages using GitHub
 2. Under "Source", select "GitHub Actions"
 3. The workflow will automatically deploy on pushes to the `main` branch
 4. Your site will be published at `https://<your-github-username>.github.io/<repository-name>/`
+
+Common errors fixed
+1.) too many comments after each line of code. fixed to be more concise above each chunk of code
+2.) buttons had repetitive counter update code so created it's own function to be called in place of that
+3.) certain ID's had their own variables and others didn't. added some variables to keep a common convention and also changed variable names to be less confusing
